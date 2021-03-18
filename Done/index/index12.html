@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/style12.css" />
+    <script
+      type="module"
+      src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/styles/style12.css" />
+
+    <title>Document</title>
+  </head>
+
+  <body>
+    <ion-app>
+      <ion-grid>
+        <ion-row class="header">
+          <ion-col>
+            <div style="height: 60px">iCare</div>
+          </ion-col>
+          <ion-col>
+            <ion-item
+              color="#6e78f7"
+              style="
+                margin: 15px;
+                position: relative;
+                bottom: 40%;
+                border-radius: 50px;
+              "
+            >
+              <ion-label style="color: white">Oujda</ion-label>
+              <ion-select [(ngModel)]="gender"> </ion-select>
+            </ion-item>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-searchbar
+            class="search"
+            color="white"
+            placeholder="Médecins, spécialités, cliniques"
+          ></ion-searchbar>
+        </ion-row>
+        <ion-row>
+          <ion-col>
+            <div class="main-img" style="height: 300px">
+              <img src="/img/415.svg" style="margin: 0px" />
+            </div>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col>
+            <div class="border-radius" style="height: 100px">
+              <img
+                class="icons"
+                src="/img/insurance-clipboard-document-report-security.svg"
+              />
+            </div>
+          </ion-col>
+          <ion-col>
+            <div class="border-radius" style="height: 100px">
+              <img class="icons" src="/img/stethoscope.svg" />
+            </div>
+          </ion-col>
+          <ion-col>
+            <div class="border-radius" style="height: 100px">
+              <img class="icons" src="/img/pharmacy.svg" />
+            </div>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col>
+            <div>
+              <p class="title">Diagnostique</p>
+            </div>
+          </ion-col>
+          <ion-col>
+            <div>
+              <p class="title">Médicins</p>
+            </div>
+          </ion-col>
+          <ion-col>
+            <div>
+              <p class="title">Pharmacie</p>
+            </div>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col>
+            <div>
+              <p style="color: #898a8f">Réserver un test à seuil de porte</p>
+            </div>
+          </ion-col>
+          <ion-col>
+            <div>
+              <p style="color: #898a8f">Recherche médecin autour de vous</p>
+            </div>
+          </ion-col>
+          <ion-col>
+            <div>
+              <p style="color: #898a8f">
+                Commander des médicaments à la maison
+              </p>
+            </div>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col>
+            <div class="border-radius" style="height: 100px">
+              <img class="icons" src="/img/icon-2-clinic.svg" />
+            </div>
+          </ion-col>
+          <ion-col>
+            <div class="border-radius" style="height: 100px">
+              <img class="icons" src="/img/icon-2-labs_2.svg" />
+            </div>
+          </ion-col>
+          <ion-col>
+            <div class="border-radius" style="height: 100px">
+              <img class="icons" src="/img/icon-2-articles.svg" />
+            </div>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col>
+            <div>
+              <p class="title">Clinique</p>
+            </div>
+          </ion-col>
+          <ion-col>
+            <div>
+              <p class="title">Labo</p>
+            </div>
+          </ion-col>
+          <ion-col>
+            <div>
+              <p class="title">Rendez-vous</p>
+            </div>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col>
+            <div>
+              <p style="color: #898a8f">Recherche médecin autour de vous</p>
+            </div>
+          </ion-col>
+          <ion-col>
+            <div>
+              <p style="color: #898a8f">Réserver un test à seuil de porte</p>
+            </div>
+          </ion-col>
+          <ion-col>
+            <div>
+              <p style="color: #898a8f">
+                Commander des médicaments à la maison
+              </p>
+            </div>
+          </ion-col>
+        </ion-row>
+        <ion-app>
+          <ion-col>
+            <ion-tabs>
+              <ion-tab-bar slot="bottom">
+                <ion-tab-button tab="schedule">
+                  <ion-icon color="secondary" name="home-outline"></ion-icon>
+                </ion-tab-button>
+
+                <ion-tab-button tab="speakers">
+                  <ion-icon name="person-circle"></ion-icon>
+                </ion-tab-button>
+
+                <ion-tab-button tab="map">
+                  <ion-icon name="calendar-outline"></ion-icon>
+                </ion-tab-button>
+
+                <ion-tab-button tab="about">
+                  <ion-icon name="person-outline"></ion-icon>
+                </ion-tab-button>
+              </ion-tab-bar>
+            </ion-tabs>
+          </ion-col>
+        </ion-app>
+      </ion-grid>
+    </ion-app>
+  </body>
+</html>

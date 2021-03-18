@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="38.737" height="44.973" viewBox="0 0 38.737 44.973">
+  <g id="stethoscope" transform="translate(-35.501)">
+    <g id="Groupe_1628" data-name="Groupe 1628" transform="translate(35.501 1.751)">
+      <g id="Groupe_1627" data-name="Groupe 1627" transform="translate(0)">
+        <path id="Tracé_1471" data-name="Tracé 1471" d="M60.121,19.932H54.869v3.283H58.48V29.4a9.848,9.848,0,1,1-19.7,0V23.215h3.5V19.932H37.142A1.641,1.641,0,0,0,35.5,21.573V29.4a13.131,13.131,0,1,0,26.262,0V21.573A1.641,1.641,0,0,0,60.121,19.932Z" transform="translate(-35.501 -19.932)" fill="#6e6fd8"/>
+      </g>
+    </g>
+    <g id="Groupe_1630" data-name="Groupe 1630" transform="translate(46.826 22.76)">
+      <g id="Groupe_1629" data-name="Groupe 1629">
+        <path id="Tracé_1472" data-name="Tracé 1472" d="M184.13,262.068v7.769a8.207,8.207,0,1,1-16.414,0V259.114h-3.283v10.724a11.49,11.49,0,0,0,22.979,0v-7.769Z" transform="translate(-164.434 -259.114)" fill="#6e6fd8"/>
+      </g>
+    </g>
+    <g id="Groupe_1632" data-name="Groupe 1632" transform="translate(62.091 15.1)">
+      <g id="Groupe_1631" data-name="Groupe 1631" transform="translate(0)">
+        <path id="Tracé_1473" data-name="Tracé 1473" d="M344.29,171.912a6.073,6.073,0,1,0,6.073,6.073A6.08,6.08,0,0,0,344.29,171.912Zm0,8.863a2.79,2.79,0,1,1,2.79-2.79A2.794,2.794,0,0,1,344.289,180.775Z" transform="translate(-338.216 -171.912)" fill="#6e6fd8"/>
+      </g>
+    </g>
+    <g id="Groupe_1634" data-name="Groupe 1634" transform="translate(40.589)">
+      <g id="Groupe_1633" data-name="Groupe 1633">
+        <path id="Tracé_1474" data-name="Tracé 1474" d="M95.069,0a1.641,1.641,0,0,0-1.641,1.641v3.5a1.641,1.641,0,0,0,3.283,0v-3.5A1.641,1.641,0,0,0,95.069,0Z" transform="translate(-93.428)" fill="#6e6fd8"/>
+      </g>
+    </g>
+    <g id="Groupe_1636" data-name="Groupe 1636" transform="translate(53.282)">
+      <g id="Groupe_1635" data-name="Groupe 1635">
+        <path id="Tracé_1475" data-name="Tracé 1475" d="M239.575,0a1.641,1.641,0,0,0-1.641,1.641v3.5a1.641,1.641,0,1,0,3.283,0v-3.5A1.641,1.641,0,0,0,239.575,0Z" transform="translate(-237.934)" fill="#6e6fd8"/>
+      </g>
+    </g>
+  </g>
+</svg>
